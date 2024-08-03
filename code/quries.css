@@ -241,6 +241,11 @@
   .pic-backGround {
     font-size: 1.6rem;
   }
+
+  .heading-primary {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* 
