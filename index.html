@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beach Bar</title>
+    <link rel="stylesheet" href="code/style.css" />
+    <link rel="stylesheet" href="code/general.css" />
+    <link rel="stylesheet" href="code/quries.css" />
+
+    <link rel="Icons" href="" />
+    <script defer src="code/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div class="logo">Barcelona Beach Bar</div>
+        <div class="nav">
+          <ul class="main-nav-list">
+            <li><a href="#menu" class="main-nav-link">Menu</a></li>
+            <li><a href="#location" class="main-nav-link">Location</a></li>
+            <li><a href="#photo" class="main-nav-link">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="nav-social-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M 224.1 141 c -63.6 0 -114.9 51.3 -114.9 114.9 s 51.3 114.9 114.9 114.9 S 339 319.5 339 255.9 S 287.7 141 224.1 141 Z m 0 189.6 c -41.1 0 -74.7 -33.5 -74.7 -74.7 s 33.5 -74.7 74.7 -74.7 s 74.7 33.5 74.7 74.7 s -33.6 74.7 -74.7 74.7 Z m 146.4 -194.3 c 0 14.9 -12 26.8 -26.8 26.8 c -14.9 0 -26.8 -12 -26.8 -26.8 s 12 -26.8 26.8 -26.8 s 26.8 12 26.8 26.8 Z m 76.1 27.2 c -1.7 -35.9 -9.9 -67.7 -36.2 -93.9 c -26.2 -26.2 -58 -34.4 -93.9 -36.2 c -37 -2.1 -147.9 -2.1 -184.9 0 c -35.8 1.7 -67.6 9.9 -93.9 36.1 s -34.4 58 -36.2 93.9 c -2.1 37 -2.1 147.9 0 184.9 c 1.7 35.9 9.9 67.7 36.2 93.9 s 58 34.4 93.9 36.2 c 37 2.1 147.9 2.1 184.9 0 c 35.9 -1.7 67.7 -9.9 93.9 -36.2 c 26.2 -26.2 34.4 -58 36.2 -93.9 c 2.1 -37 2.1 -147.8 0 -184.8 Z M 398.8 388 c -7.8 19.6 -22.9 34.7 -42.6 42.6 c -29.5 11.7 -99.5 9 -132.1 9 s -102.7 2.6 -132.1 -9 c -19.6 -7.8 -34.7 -22.9 -42.6 -42.6 c -11.7 -29.5 -9 -99.5 -9 -132.1 s -2.6 -102.7 9 -132.1 c 7.8 -19.6 22.9 -34.7 42.6 -42.6 c 29.5 -11.7 99.5 -9 132.1 -9 s 102.7 -2.6 132.1 9 c 19.6 7.8 34.7 22.9 42.6 42.6 c 11.7 29.5 9 99.5 9 132.1 s 2.7 102.7 -9 132.1 Z"
+            />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M 448 209.91 a 210.06 210.06 0 0 1 -122.77 -39.25 V 349.38 A 162.55 162.55 0 1 1 185 188.31 V 278.2 a 74.62 74.62 0 1 0 52.23 71.18 V 0 l 88 0 a 121.18 121.18 0 0 0 1.86 22.17 h 0 A 122.18 122.18 0 0 0 381 102.39 a 121.43 121.43 0 0 0 67 20.14 Z"
+            />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M 549.655 124.083 c -6.281 -23.65 -24.787 -42.276 -48.284 -48.597 C 458.781 64 288 64 288 64 S 117.22 64 74.629 75.486 c -23.497 6.322 -42.003 24.947 -48.284 48.597 c -11.412 42.867 -11.412 132.305 -11.412 132.305 s 0 89.438 11.412 132.305 c 6.281 23.65 24.787 41.5 48.284 47.821 C 117.22 448 288 448 288 448 s 170.78 0 213.371 -11.486 c 23.497 -6.321 42.003 -24.171 48.284 -47.821 c 11.412 -42.867 11.412 -132.305 11.412 -132.305 s 0 -89.438 -11.412 -132.305 Z m -317.51 213.508 V 175.185 l 142.739 81.205 l -142.739 81.201 Z"
+            />
+          </svg>
+        </div>
+
+        <div class="mbl-nav-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="menu"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M 0 96 C 0 78.3 14.3 64 32 64 H 416 c 17.7 0 32 14.3 32 32 s -14.3 32 -32 32 H 32 C 14.3 128 0 113.7 0 96 Z M 0 256 c 0 -17.7 14.3 -32 32 -32 H 416 c 17.7 0 32 14.3 32 32 s -14.3 32 -32 32 H 32 c -17.7 0 -32 -14.3 -32 -32 Z M 448 416 c 0 17.7 -14.3 32 -32 32 H 32 c -17.7 0 -32 -14.3 -32 -32 s 14.3 -32 32 -32 H 416 c 17.7 0 32 14.3 32 32 Z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="close"
+            viewBox="0 0 384 512"
+          >
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M 342.6 150.6 c 12.5 -12.5 12.5 -32.8 0 -45.3 s -32.8 -12.5 -45.3 0 L 192 210.7 L 86.6 105.4 c -12.5 -12.5 -32.8 -12.5 -45.3 0 s -12.5 32.8 0 45.3 L 146.7 256 L 41.4 361.4 c -12.5 12.5 -12.5 32.8 0 45.3 s 32.8 12.5 45.3 0 L 192 301.3 L 297.4 406.6 c 12.5 12.5 32.8 12.5 45.3 0 s 12.5 -32.8 0 -45.3 L 237.3 256 L 342.6 150.6 Z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <section class="secton-hero" id="hero">
+      <div class="section-container container">
+        <div class="hero-detials center-text">
+          <h1 class="heading-primary">
+            Unwind at <span>Barcelona's</span> <br />
+            Best Beach Spot
+          </h1>
+          <p class="paragraph">
+            Escape to our serene beach bar with breathtaking views, <br />
+            delicious drinks, and a releaxed atmosphere.
+          </p>
+          <div class="hero-btn"><button>See More</button></div>
+          <div class="hero-star">
+            <div class="star-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M 287.9 0 c 9.2 0 17.6 5.2 21.6 13.5 l 68.6 141.3 l 153.2 22.6 c 9 1.3 16.5 7.6 19.3 16.3 s 0.5 18.1 -5.9 24.5 L 433.6 328.4 l 26.2 155.6 c 1.5 9 -2.2 18.1 -9.6 23.5 s -17.3 6 -25.3 1.7 l -137 -73.2 L 151 509.1 c -8.1 4.3 -17.9 3.7 -25.3 -1.7 s -11.2 -14.5 -9.7 -23.5 l 26.2 -155.6 L 31.1 218.2 c -6.5 -6.4 -8.7 -15.9 -5.9 -24.5 s 10.3 -14.9 19.3 -16.3 l 153.2 -22.6 L 266.3 13.5 C 270.4 5.2 278.7 0 287.9 0 Z m 0 79 L 235.4 187.2 c -3.5 7.1 -10.2 12.1 -18.1 13.3 L 99 217.9 L 184.9 303 c 5.5 5.5 8.1 13.3 6.8 21 L 171.4 443.7 l 105.2 -56.2 c 7.1 -3.8 15.6 -3.8 22.6 0 l 105.2 56.2 L 384.2 324.1 c -1.3 -7.7 1.2 -15.5 6.8 -21 l 85.9 -85.1 L 358.6 200.5 c -7.8 -1.2 -14.6 -6.1 -18.1 -13.3 L 287.9 79 Z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M 287.9 0 c 9.2 0 17.6 5.2 21.6 13.5 l 68.6 141.3 l 153.2 22.6 c 9 1.3 16.5 7.6 19.3 16.3 s 0.5 18.1 -5.9 24.5 L 433.6 328.4 l 26.2 155.6 c 1.5 9 -2.2 18.1 -9.6 23.5 s -17.3 6 -25.3 1.7 l -137 -73.2 L 151 509.1 c -8.1 4.3 -17.9 3.7 -25.3 -1.7 s -11.2 -14.5 -9.7 -23.5 l 26.2 -155.6 L 31.1 218.2 c -6.5 -6.4 -8.7 -15.9 -5.9 -24.5 s 10.3 -14.9 19.3 -16.3 l 153.2 -22.6 L 266.3 13.5 C 270.4 5.2 278.7 0 287.9 0 Z m 0 79 L 235.4 187.2 c -3.5 7.1 -10.2 12.1 -18.1 13.3 L 99 217.9 L 184.9 303 c 5.5 5.5 8.1 13.3 6.8 21 L 171.4 443.7 l 105.2 -56.2 c 7.1 -3.8 15.6 -3.8 22.6 0 l 105.2 56.2 L 384.2 324.1 c -1.3 -7.7 1.2 -15.5 6.8 -21 l 85.9 -85.1 L 358.6 200.5 c -7.8 -1.2 -14.6 -6.1 -18.1 -13.3 L 287.9 79 Z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M 287.9 0 c 9.2 0 17.6 5.2 21.6 13.5 l 68.6 141.3 l 153.2 22.6 c 9 1.3 16.5 7.6 19.3 16.3 s 0.5 18.1 -5.9 24.5 L 433.6 328.4 l 26.2 155.6 c 1.5 9 -2.2 18.1 -9.6 23.5 s -17.3 6 -25.3 1.7 l -137 -73.2 L 151 509.1 c -8.1 4.3 -17.9 3.7 -25.3 -1.7 s -11.2 -14.5 -9.7 -23.5 l 26.2 -155.6 L 31.1 218.2 c -6.5 -6.4 -8.7 -15.9 -5.9 -24.5 s 10.3 -14.9 19.3 -16.3 l 153.2 -22.6 L 266.3 13.5 C 270.4 5.2 278.7 0 287.9 0 Z m 0 79 L 235.4 187.2 c -3.5 7.1 -10.2 12.1 -18.1 13.3 L 99 217.9 L 184.9 303 c 5.5 5.5 8.1 13.3 6.8 21 L 171.4 443.7 l 105.2 -56.2 c 7.1 -3.8 15.6 -3.8 22.6 0 l 105.2 56.2 L 384.2 324.1 c -1.3 -7.7 1.2 -15.5 6.8 -21 l 85.9 -85.1 L 358.6 200.5 c -7.8 -1.2 -14.6 -6.1 -18.1 -13.3 L 287.9 79 Z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M 287.9 0 c 9.2 0 17.6 5.2 21.6 13.5 l 68.6 141.3 l 153.2 22.6 c 9 1.3 16.5 7.6 19.3 16.3 s 0.5 18.1 -5.9 24.5 L 433.6 328.4 l 26.2 155.6 c 1.5 9 -2.2 18.1 -9.6 23.5 s -17.3 6 -25.3 1.7 l -137 -73.2 L 151 509.1 c -8.1 4.3 -17.9 3.7 -25.3 -1.7 s -11.2 -14.5 -9.7 -23.5 l 26.2 -155.6 L 31.1 218.2 c -6.5 -6.4 -8.7 -15.9 -5.9 -24.5 s 10.3 -14.9 19.3 -16.3 l 153.2 -22.6 L 266.3 13.5 C 270.4 5.2 278.7 0 287.9 0 Z m 0 79 L 235.4 187.2 c -3.5 7.1 -10.2 12.1 -18.1 13.3 L 99 217.9 L 184.9 303 c 5.5 5.5 8.1 13.3 6.8 21 L 171.4 443.7 l 105.2 -56.2 c 7.1 -3.8 15.6 -3.8 22.6 0 l 105.2 56.2 L 384.2 324.1 c -1.3 -7.7 1.2 -15.5 6.8 -21 l 85.9 -85.1 L 358.6 200.5 c -7.8 -1.2 -14.6 -6.1 -18.1 -13.3 L 287.9 79 Z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M 287.9 0 c 9.2 0 17.6 5.2 21.6 13.5 l 68.6 141.3 l 153.2 22.6 c 9 1.3 16.5 7.6 19.3 16.3 s 0.5 18.1 -5.9 24.5 L 433.6 328.4 l 26.2 155.6 c 1.5 9 -2.2 18.1 -9.6 23.5 s -17.3 6 -25.3 1.7 l -137 -73.2 L 151 509.1 c -8.1 4.3 -17.9 3.7 -25.3 -1.7 s -11.2 -14.5 -9.7 -23.5 l 26.2 -155.6 L 31.1 218.2 c -6.5 -6.4 -8.7 -15.9 -5.9 -24.5 s 10.3 -14.9 19.3 -16.3 l 153.2 -22.6 L 266.3 13.5 C 270.4 5.2 278.7 0 287.9 0 Z m 0 79 L 235.4 187.2 c -3.5 7.1 -10.2 12.1 -18.1 13.3 L 99 217.9 L 184.9 303 c 5.5 5.5 8.1 13.3 6.8 21 L 171.4 443.7 l 105.2 -56.2 c 7.1 -3.8 15.6 -3.8 22.6 0 l 105.2 56.2 L 384.2 324.1 c -1.3 -7.7 1.2 -15.5 6.8 -21 l 85.9 -85.1 L 358.6 200.5 c -7.8 -1.2 -14.6 -6.1 -18.1 -13.3 L 287.9 79 Z"
+                />
+              </svg>
+              <div class="text">4.8</div>
+            </div>
+            <div class="star-text">From 2,000+ <span>Services</span></div>
+          </div>
+          <div class="hero-img">
+            <img class="left" src="pic/pic1.webp" alt="pic1" />
+            <img class="img-middle" src="pic/pic3.webp" alt="pic3" />
+            <img class="right" src="pic/pic2.webp" alt="pic2" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-menu" id="menu">
+      <div class="meun-container container">
+        <div class="menu-detials center-text">
+          <h2 class="heading-secondary">Our <span>menu</span></h2>
+        </div>
+        <div class="grid grid--3--cols">
+          <div class="card-menu col-2">
+            <h3 class="middle">Drinks</h3>
+            <div class="grid grid--3--cols">
+              <div>
+                <ul>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                </ul>
+              </div>
+              <div class="menu-img bt">
+                <img src="pic/pic9.webp" alt="pic3" />
+              </div>
+            </div>
+          </div>
+          <div class="card-menu rol-2">
+            <h3 class="middle">Drinks</h3>
+            <div class="grid grid--2--cols">
+              <div>
+                <ul>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-menu col-2">
+            <h3 class="middle">Drinks</h3>
+            <div class="grid grid--3--cols">
+              <div class="menu-img bt">
+                <img src="pic/shaPic].webp " alt="pic3" />
+              </div>
+              <div>
+                <ul>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-menu col-2">
+            <h3 class="middle">Drinks</h3>
+            <div class="grid grid--3--cols">
+              <div>
+                <ul>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                  <li>Aperol</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+                </ul>
+              </div>
+              <div class="menu-img bt">
+                <img src="pic/shaPic2.jpg" alt="pic3" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card-menu card-menu1 center-text">
+            <div class="up">
+              <div class="pic-backGround">See the whole menu</div>
+              <div class="menu-btn">
+                <button>Download Pdf</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-event" id="event">
+      <div class="event-container container">
+        <div class="event-detials center-text">
+          <h2 class="heading-secondary">
+            Upcoming special <span>events</span>
+          </h2>
+        </div>
+        <div class="grid grid--3--cols">
+          <div class="card-event">
+            <div class="card-con">
+              <div class="card-img"><img src="pic/pic2.webp" alt="pic7" /></div>
+              <div class="card-text">
+                <h3 class="middle">Summary boat party</h3>
+                <p class="paragraph">28th July</p>
+                <div class="card-link"><a href="#">More detials &rarr;</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-event">
+            <div class="card-con">
+              <div class="card-img"><img src="pic/pic3.webp" alt="pic7" /></div>
+              <div class="card-text">
+                <h3 class="middle">Summary boat party</h3>
+                <p class="paragraph">28th July</p>
+                <div class="card-link"><a href="#">More detials &rarr;</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-event new">
+            <div class="card-con mid">
+              <div class="card-img"><img src="pic/pic1.webp" alt="pic7" /></div>
+              <div class="card-text">
+                <h3 class="middle">Summary boat party</h3>
+                <p class="paragraph">28th July</p>
+                <div class="card-link"><a href="#">More detials &rarr;</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-photo" id="photo">
+      <div class="photo-container container">
+        <div class="photo-detials center-text">
+          <h2 class="heading-secondary">Checkout out<span>photos</span></h2>
+        </div>
+        <marquee behavior="" direction="left"
+          ><img src="pic/pic10.webp" alt="" /> ><img
+            src="pic/pic11.webp"
+            alt=""
+          />
+          ><img src="pic/pic12.webp" alt="" /> ><img
+            src="pic/pic13.webp"
+            alt=""
+          />
+          ><img src="pic/pic14.webp" alt="" /> ><img
+            src="pic/pic15.webp"
+            alt=""
+          />
+          ><img src="pic/pic16.webp" alt="" /> ><img
+            src="pic/pic17.webp"
+            alt=""
+          />
+          ><img src="pic/pic18.webp" alt="" /> ><img
+            src="pic/pic2.webp"
+            alt=""
+          />
+          ><img src="pic/pic3.webp" alt="" />
+        </marquee>
+        <marquee behavior="" direction="right"
+          ><img src="pic/pic1.webp" alt="" /> ><img
+            src="pic/pic2.webp"
+            alt=""
+          />
+          ><img src="pic/pic3.webp" alt="" /> ><img
+            src="pic/pic4.webp"
+            alt=""
+          />
+          ><img src="pic/pic5.webp" alt="" /> ><img
+            src="pic/pic6.webp"
+            alt=""
+          />
+          ><img src="pic/pic7.webp" alt="" /> ><img
+            src="pic/pic8.webp"
+            alt=""
+          />
+          ><img src="pic/pic9.webp" alt="" /> ><img
+            src="pic/pic2.webp"
+            alt=""
+          />
+          ><img src="pic/pic3.webp" alt="" />
+        </marquee>
+        <div class="event-btn center-text"><button>See More</button></div>
+      </div>
+    </section>
+    <section class="section-testimonial">
+      <div class="testimonial-container container">
+        <div class="testimonial-detials center-text">
+          <h2 class="heading-secondary">Testimonial</h2>
+        </div>
+        <div class="testimonial-text center-text">
+          <div class="testimonial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M 123.6 391.3 c 12.9 -9.4 29.6 -11.8 44.6 -6.4 c 26.5 9.6 56.2 15.1 87.8 15.1 c 124.7 0 208 -80.5 208 -160 s -83.3 -160 -208 -160 S 48 160.5 48 240 c 0 32 12.4 62.8 35.7 89.2 c 8.6 9.7 12.8 22.5 11.8 35.5 c -1.4 18.1 -5.7 34.7 -11.3 49.4 c 17 -7.9 31.1 -16.7 39.4 -22.7 Z M 21.2 431.9 c 1.8 -2.7 3.5 -5.4 5.1 -8.1 c 10 -16.6 19.5 -38.4 21.4 -62.9 C 17.7 326.8 0 285.1 0 240 C 0 125.1 114.6 32 256 32 s 256 93.1 256 208 s -114.6 208 -256 208 c -37.1 0 -72.3 -6.4 -104.1 -17.9 c -11.9 8.7 -31.3 20.6 -54.3 30.6 c -15.1 6.6 -32.3 12.6 -50.1 16.1 c -0.8 0.2 -1.6 0.3 -2.4 0.5 c -4.4 0.8 -8.7 1.5 -13.2 1.9 c -0.2 0 -0.5 0.1 -0.7 0.1 c -5.1 0.5 -10.2 0.8 -15.3 0.8 c -6.5 0 -12.3 -3.9 -14.8 -9.9 c -2.5 -6 -1.1 -12.8 3.4 -17.4 c 4.1 -4.2 7.8 -8.7 11.3 -13.5 c 1.7 -2.3 3.3 -4.6 4.8 -6.9 c 0.1 -0.2 0.2 -0.3 0.3 -0.5 Z"
+              />
+            </svg>
+          </div>
+          <div class="main-text">"I just love <span>this place</span> "</div>
+          <div class="author-detials">
+            <img src="pic/customer1.jpg" alt="customer1" />
+            <div class="author-info">
+              <div class="author-name">Alicia Verdo</div>
+              <div class="author-occupation">Famous Actor</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-location" id="location">
+      <div class="location-container container">
+        <div class="location-detials center-text">
+          <h2 class="heading-secondary">How to <span>find us</span></h2>
+        </div>
+        <div class="grid grid--2--cols">
+          <div class="map-location">
+            <img src="pic/map-location.jpg" alt="map-location" />
+          </div>
+          <div class="loaction-detials">
+            <div>
+              <h3 class="middle">Address</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+                <br />
+                Illo, excepturi.
+              </p>
+            </div>
+            <div>
+              <h3 class="middle">Oppening Hours</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+                <br />
+                Illo, excepturi.
+              </p>
+            </div>
+            <div>
+              <h3 class="middle">How to get here</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+                <br />
+                Illo, excepturi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-footer">
+      <div class="footer-container container">
+        <div class="">
+          <div class="footer-top grid grid--sp--cols">
+            <div>
+              <h2>Barcelona Beach Bar</h2>
+              <div class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                <br />
+                laboriosam similique fugiat, doloribus iusto perferendis velit
+                <br />
+                inventore minus dolorem harum?
+              </div>
+            </div>
+            <div>
+              <h2>Navigation</h2>
+              <div>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#home">Menu</a></li>
+                  <li><a href="#home">Location</a></li>
+                  <li><a href="#home">GAllery</a></li>
+                </ul>
+              </div>
+            </div>
+            <address>
+              <h2>Contact</h2>
+              <div>
+                <ul>
+                  <li>+34 123 456 789</li>
+                  <li>info@Barcelonabeachbar.com</li>
+                  <div class="footer-social-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M 224.1 141 c -63.6 0 -114.9 51.3 -114.9 114.9 s 51.3 114.9 114.9 114.9 S 339 319.5 339 255.9 S 287.7 141 224.1 141 Z m 0 189.6 c -41.1 0 -74.7 -33.5 -74.7 -74.7 s 33.5 -74.7 74.7 -74.7 s 74.7 33.5 74.7 74.7 s -33.6 74.7 -74.7 74.7 Z m 146.4 -194.3 c 0 14.9 -12 26.8 -26.8 26.8 c -14.9 0 -26.8 -12 -26.8 -26.8 s 12 -26.8 26.8 -26.8 s 26.8 12 26.8 26.8 Z m 76.1 27.2 c -1.7 -35.9 -9.9 -67.7 -36.2 -93.9 c -26.2 -26.2 -58 -34.4 -93.9 -36.2 c -37 -2.1 -147.9 -2.1 -184.9 0 c -35.8 1.7 -67.6 9.9 -93.9 36.1 s -34.4 58 -36.2 93.9 c -2.1 37 -2.1 147.9 0 184.9 c 1.7 35.9 9.9 67.7 36.2 93.9 s 58 34.4 93.9 36.2 c 37 2.1 147.9 2.1 184.9 0 c 35.9 -1.7 67.7 -9.9 93.9 -36.2 c 26.2 -26.2 34.4 -58 36.2 -93.9 c 2.1 -37 2.1 -147.8 0 -184.8 Z M 398.8 388 c -7.8 19.6 -22.9 34.7 -42.6 42.6 c -29.5 11.7 -99.5 9 -132.1 9 s -102.7 2.6 -132.1 -9 c -19.6 -7.8 -34.7 -22.9 -42.6 -42.6 c -11.7 -29.5 -9 -99.5 -9 -132.1 s -2.6 -102.7 9 -132.1 c 7.8 -19.6 22.9 -34.7 42.6 -42.6 c 29.5 -11.7 99.5 -9 132.1 -9 s 102.7 -2.6 132.1 9 c 19.6 7.8 34.7 22.9 42.6 42.6 c 11.7 29.5 9 99.5 9 132.1 s 2.7 102.7 -9 132.1 Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M 448 209.91 a 210.06 210.06 0 0 1 -122.77 -39.25 V 349.38 A 162.55 162.55 0 1 1 185 188.31 V 278.2 a 74.62 74.62 0 1 0 52.23 71.18 V 0 l 88 0 a 121.18 121.18 0 0 0 1.86 22.17 h 0 A 122.18 122.18 0 0 0 381 102.39 a 121.43 121.43 0 0 0 67 20.14 Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                    >
+                      <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                      <path
+                        d="M 549.655 124.083 c -6.281 -23.65 -24.787 -42.276 -48.284 -48.597 C 458.781 64 288 64 288 64 S 117.22 64 74.629 75.486 c -23.497 6.322 -42.003 24.947 -48.284 48.597 c -11.412 42.867 -11.412 132.305 -11.412 132.305 s 0 89.438 11.412 132.305 c 6.281 23.65 24.787 41.5 48.284 47.821 C 117.22 448 288 448 288 448 s 170.78 0 213.371 -11.486 c 23.497 -6.321 42.003 -24.171 48.284 -47.821 c 11.412 -42.867 11.412 -132.305 11.412 -132.305 s 0 -89.438 -11.412 -132.305 Z m -317.51 213.508 V 175.185 l 142.739 81.205 l -142.739 81.201 Z"
+                      />
+                    </svg>
+                  </div>
+                </ul>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <marquee behavior="" direction="left">Maxy Tee</marquee> -->
+  </body>
+</html>
